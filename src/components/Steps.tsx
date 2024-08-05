@@ -91,7 +91,11 @@ const Steps = () => {
                     fill="none"
                     preserveAspectRatio="none"
                   >
-                     
+                    <path
+                      d="M0.5 0V31L10.5 41L0.5 51V82"
+                      stroke="currentcolor"
+                      vectorEffect="non-scaling-stroke"
+                    />
                   </svg>
                 </div>
               ) : null}
